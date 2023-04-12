@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    height: 100vh;
+}
+
+header {
+    height: 10%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header .container>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+header a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height, or 120% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+main {
+    padding: 16px 57px;
+    height: 90%;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+}
+
+.textDesign {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 82px;
+    margin-bottom: 208px;
+}
+
+.textDesign h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* or 121% */
+    width: 35%;
+    color: #1A1A1A;
+}
+
+.textDesign p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    width: 50%;
+    color: #AAAAAA;
+}
+
+.roomDesign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.room {
+    width: 49%;
+}
+
+.room img {
+    width: 100%;
+}
+
+.brandsText {
+    margin-top: 244px;
+    margin-bottom: 125px;
+}
+
+.brandsText h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.brandsText p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.logoBrands {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoBrands div {
+    margin-top: 49px;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+
+.menuBurger {
+    display: none;
+}
+
+.menuBurger img {
+    height: 50px;
+}
+
+.slider {
+    padding: 0 27px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.advantages h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #1A1A1A;
+}
+
+.advantages a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    /* identical to box height, or 86% */
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+
+    color: #46856E;
+    margin-top: 24px;
+    margin-bottom: 71px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.aItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aItem h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    margin: 20px 0;
+    color: #1A1A1A;
+}
+
+.aItem p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #AAAAAA;
+}
+
+.aItem {
+    width: 30%;
+}
+
+.reviews>div {
+    background-image: url(./images/slider/Rectangle-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding: 120px 195px;
+}
+
+.review p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    margin-top: 14px;
+    color: #FFFFFF;
+}
+
+.review {
+    margin-bottom: 40px;
+}
+
+.reviews div>a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    /* identical to box height, or 75% */
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.work h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+
+    color: #1A1A1A;
+}
+
+.work p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #AAAAAA;
+}
+
+.work img {
+    width: 60%;
+}
+
+.work div {
+    width: 35%;
+    align-self: center;
+}
+
+footer .container {
+    display: flex;
+}
+
+.leftF {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+}
+
+footer {
+    background-color: #2B2B2B;
+    height: 100vh;
+    padding-top: 97px;
+    padding-bottom: 70px;
+}
+
+.about,
+.showrooms,
+.support,
+.office {
+    display: flex;
+    flex-direction: column;
+}
+
+#f1 {
+    margin: 0 70px;
+}
+
+.about,
+.support {
+    margin-bottom: 47px;
+}
+
+footer a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.followUs p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.5px;
+    margin-bottom: 17px;
+    color: #FFFFFF;
+}
+
+.followUs div img {
+    margin-right: 13px;
+}
+
+.rightF {
+    display: flex;
+    width: 50%;
+}
+
+.followUs {
+    width: 30%;
+}
+
+.feedBack {
+    width: 70%;
+}
+
+input[type="text"] {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    background-color: transparent;
+    width: 327px;
+    height: 54px;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    color: rgba(255, 255, 255, 0.5);
+}
+input[type="checkbox"]{
+    border: none;
+    background-color: transparent;
+    width: 28px;
+    height: 26px;
+}
+@media (max-width: 576px) {
+    header .container div {
+        display: none;
+    }
+
+    .menuBurger {
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .main {
+        height: fit-content;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    main {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .textDesign {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .textDesign h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .textDesign p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .roomDesign {
+        flex-direction: column;
+    }
+
+    .room {
+        width: 100%;
+    }
+}
