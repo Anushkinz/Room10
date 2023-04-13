@@ -370,6 +370,21 @@ input[type="checkbox"]{
     width: 28px;
     height: 26px;
 }
+.textDesign h1{
+    color: red;
+}
+@media (max-width: 1400px) {
+    
+}
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 768px) {
+    
+}
 @media (max-width: 576px) {
     header .container div {
         display: none;
